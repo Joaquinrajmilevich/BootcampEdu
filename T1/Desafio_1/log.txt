@@ -1,3 +1,123 @@
+commit dd44a102a0646e5ebf0035c056880db1eeeb72b4
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Tue Apr 18 14:10:00 2023 +0200
+
+    Create readme.md
+
+commit 3c21b0d436cec008f46cc364cde1a208c3781cfe
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Mon Apr 17 11:41:50 2023 +0200
+
+    Update readme.md
+
+commit 0e137067226bbd13db29374269a4392eb1972e2c
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Mon Apr 17 11:38:45 2023 +0200
+
+    Update README.md
+
+commit 6198f819818d1d7deb145b5a3ee6b9a621d3fdca
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Mon Apr 17 11:33:03 2023 +0200
+
+    Update readme.md
+
+commit f4888cce3f3e02f2b8733fedf4b4f393952506d5
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Mon Apr 17 11:27:56 2023 +0200
+
+    Update readme.md
+
+commit aef962f4ea0b6f9ebf7954fb6f02d6c8c6c06852
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Mon Apr 17 11:22:35 2023 +0200
+
+    nest submodule
+
+commit 90e2d6dc17c04bef2c8b31b8d09ce948884bcc2f
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sun Apr 16 00:08:41 2023 +0200
+
+    Update readme.md
+
+commit 8fd89a0e97be42e94210f50185cc5eeb564ec467
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sun Apr 16 00:08:26 2023 +0200
+
+    Update readme.md
+
+commit 058e4fc8cf95c4c88c62523bee7da0dc76ae50c6
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 23:52:47 2023 +0200
+
+    Update README.md
+
+commit 77ba28513ae05c9db79b1f23aca289df829917d1
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 23:51:36 2023 +0200
+
+    Update readme.md
+
+commit 48b2011583a2f5388c81789e740f2f538cd7dfd9
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 23:41:16 2023 +0200
+
+    Update readme.md
+
+commit 3fe057f81caba0776b7cdbd69a7cdc18bea1e2cb
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 23:13:02 2023 +0200
+
+    Reestructuración de carpetas
+
+commit 287bab26e56dc28945a86790a6b30d693ef4bcba
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 23:07:53 2023 +0200
+
+    actualizado README
+
+commit 8c4b890d7fecfe36f13e22843135661b496a78d2
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 23:05:53 2023 +0200
+
+    actualizado README
+
+commit e133452ee16ba41db4ec5f3ed1e92ad2a2e23903
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 22:56:42 2023 +0200
+
+    errata
+
+commit c00f357f96f41eae27d2a88bbda49037a7e4f860
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 22:55:54 2023 +0200
+
+    Completado Desafio 3
+
+commit d78109ed2daf5834230333c568ba3e50ddd8697a
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 22:02:37 2023 +0200
+
+    errata readme desafio 2
+
+commit 437e72e718da03f90a03b631578016aedf8229ed
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 21:58:19 2023 +0200
+
+    añadidas las respuestas al readme
+
+commit ff9ec1b9f4432bc9361a59d1a6bf7caf5d2c916f
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 21:43:26 2023 +0200
+
+    add readme.md
+
+commit 34bead77c8434baf84745f326e0eac8a65c1297a
+Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
+Date:   Sat Apr 15 21:30:41 2023 +0200
+
+    añadido log.txt
+
 commit 0406970c1ee9a5bdb6ea56fb5d75c2f316b0278b
 Author: Joaquin Rajmilevich <joaquinrajmilevich@gmail.com>
 Date:   Sat Apr 15 21:26:38 2023 +0200
