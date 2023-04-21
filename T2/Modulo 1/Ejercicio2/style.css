@@ -1,0 +1,48 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 66.66px;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.b {
+    font-size: 197.33px;
+    margin: 0;
+    line-height: 1;
+}
+.f {
+    font-size: 217.33px;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+h3 {
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0;
+}
+strong {
+    font-weight: 900;
+    font-size: 60px;
+    margin: 0;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 58.66px;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
