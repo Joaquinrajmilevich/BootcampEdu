@@ -1,0 +1,55 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 66.66px;
+    padding-bottom: 50px;
+    margin: 0;
+    color: #0a2ff1;
+}
+.b {
+    font-size: 197.33px;
+    margin: 0;
+    line-height: 1;
+    color: white;
+    background-color: black;
+}
+.f {
+    font-size: 217.33px;
+    margin: 0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+h3 {
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0;
+    color: #0a2ff1;
+}
+strong {
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 58.66px;
+    color: #0a2ff1;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.percent {
+    background-color: black;
+    color: white;
+}
+
+div {
+    border-bottom: 50px solid #0a2ff1;
+    border-top: 50px solid #0a2ff1;
+}
