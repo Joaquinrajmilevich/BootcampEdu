@@ -1,9 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: -10px 20px 0;
 }
 
 h1 {
-    margin-top: -20px;
+    margin: 0 0 20px;
     font-size: 79px;
     font-weight: bold;
     color: #0a2ff1;
@@ -14,16 +15,14 @@ span {
 }
 
 h3 {
-    margin-top: -22px;
+    margin: 0;
     font-size: 31px;
     font-weight: 500;
     color: #0a2ff1;
 }
 
 img {
-    margin-top: -32px;
     width: 420px;
-    height: auto;
     background-color: #8a9af1;
     background-image: linear-gradient(white, white);
     background-size: 100% 80%;
