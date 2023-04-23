@@ -1,48 +1,48 @@
+* {
+    margin: 0;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     text-align: center;
-    margin: 0;
+}
+h1, .title-f, h4 {
+    background-color: black;
+    color: white;
 }
 
 h1 {
-    font-size: 66.66px;
-    color: white;
-    background-color: black;
-    margin: 0;
+    font-size: 66.66px; 
     padding-top: 20px;
     padding-bottom: 50px;
 }
-.b {
-    font-size: 197.33px;
-    margin: 0;
+
+.title-b {
+    font-size: 197.33px;   
     line-height: 1;
 }
-.f {
+
+.title-f {
     font-size: 217.33px;
-    color: white;
-    background-color: black;
-    margin: 0;
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 h3 {
     font-weight: 600;
-    font-size: 48px;
-    margin: 0;
+    font-size: 48px;  
 }
+
 strong {
     font-weight: 900;
     font-size: 60px;
-    margin: 0;
+    
 }
 
 h4 {
     font-weight: 600;
-    font-size: 58.66px;
-    color: white;
-    background-color: black;
-    margin: 0;
+    font-size: 58.66px;  
     padding-top: 31px;
     padding-bottom: 31px;
 }
