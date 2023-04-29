@@ -1,0 +1,50 @@
+* {
+  font-family: "Mulish", sans-serif;
+  padding: 0;
+}
+body {
+  background-image: url("../Recursos/Ejercicio 1/M4-desafio1-fondo.png")
+}
+form {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  text-align: center;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-image: url("../Recursos/Ejercicio 1/M4-desafio1-fondo-form.png");
+}
+
+input, button {
+  width: 500px;
+  height: 50px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 32.64px;
+  color: #04146c;
+
+}
+
+input {
+  font-weight: 400;
+  font-size: 17pt;
+  color: #414166;
+}
+
+button {
+  font-weight: 700;
+  font-size: 17pt;
+  background-color: #15163d;
+  color: white;
+}

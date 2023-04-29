@@ -1,0 +1,82 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box
+}
+
+header {
+  background-image: url('../Recursos/Ejercicio 3/img-header.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+}
+
+div {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 44pt;
+  color: #0a2ff1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 19pt;
+  color: black;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 19pt;
+  color: #0a2ff1;
+}
+
+p.info {
+  font-weight: 400;
+  font-size: 18pt;
+  color: black;
+}
+
+a {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 20pt;
+  background-color: #0a2ff1;
+  color: white;
+  text-align: center;
+  line-height: 2;
+}
+
+footer {
+  margin-top: 40px;
+  width: 100%;
+  height: 30px;
+  background-color: #15163d;
+}
