@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-image: url("../Recursos/Ejercicio 1/M4-desafio1-fondo.png")
+  background-image: url("../Recursos/Ejercicio 1/M4-desafio1-fondo.png");
 }
 form {
   width: 600px;
@@ -22,7 +22,8 @@ form {
   background-image: url("../Recursos/Ejercicio 1/M4-desafio1-fondo-form.png");
 }
 
-input, button {
+input,
+button {
   width: 500px;
   height: 50px;
   margin-bottom: 10px;
@@ -33,18 +34,17 @@ h1 {
   font-weight: 900;
   font-size: 32.64px;
   color: #04146c;
-
 }
 
 input {
   font-weight: 400;
-  font-size: 17pt;
+  font-size: 22.67px;
   color: #414166;
 }
 
 button {
   font-weight: 700;
-  font-size: 17pt;
+  font-size: 22.67px;
   background-color: #15163d;
   color: white;
 }

@@ -1,12 +1,12 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: content-box
+  box-sizing: content-box;
 }
 
 header {
-  background-image: url('../Recursos/Ejercicio 3/img-header.png');
+  background-image: url("../Recursos/Ejercicio 3/img-header.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
@@ -32,8 +32,8 @@ div {
 }
 
 h1 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 44pt;
+  font-family: "Roboto Slab", serif;
+  font-size: 58.67px;
   color: #0a2ff1;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -41,20 +41,20 @@ h1 {
 
 p {
   font-weight: 400;
-  font-size: 19pt;
+  font-size: 25.33px;
   color: black;
   margin-bottom: 30px;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 19pt;
+  font-size: 25.33px;
   color: #0a2ff1;
 }
 
 p.info {
   font-weight: 400;
-  font-size: 18pt;
+  font-size: 24px;
   color: black;
 }
 
