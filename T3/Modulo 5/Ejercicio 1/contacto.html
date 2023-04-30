@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <img
+        src="../Recursos/M5-logo-azul.svg"
+        alt="Logotipo WH"
+        id="logo-azul"
+      />
+      <a href="index.html">HOME</a>
+      <a href="contacto.html" class="activo">CONTACTO</a>
+    </nav>
+    <main class="main-contacto">
+      <form action="">
+        <p class="p-head">¿Querés que nos contactemos con vos?</p>
+        <p class="p-foot">Dejanos tu consulta:</p>
+        <p class="input-info">Nombre completo<span> *</span></p>
+
+        <input type="text" name="fullname" id="fullname" required />
+        <p class="input-info">Email<span> *</span></p>
+
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="direccion@email.com"
+          required
+        />
+        <p class="input-info">Comentario<span> *</span></p>
+        <textarea name="comment" id="comment" required></textarea>
+        <div>
+          <button type="reset" class="reset">Resetear</button>
+          <button type="submit" class="send">Enviar</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
