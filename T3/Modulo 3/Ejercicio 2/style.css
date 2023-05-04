@@ -40,8 +40,6 @@ button {
 }
 img {
   width: 30%;
-
-  object-fit: cover;
 }
 hr {
   margin-bottom: 0;
