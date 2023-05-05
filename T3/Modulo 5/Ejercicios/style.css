@@ -74,6 +74,7 @@ footer {
   background-size: 100% 92%;
   background-repeat: no-repeat;
   padding-top: 100px;
+  width: 100%;
 }
 
 footer strong {
@@ -83,25 +84,26 @@ footer strong {
 .footer-container {
   display: flex;
   flex-shrink: 1;
-  margin: 0 60px;
+  margin-left: 6vw;
 }
 
 .footer-text {
-  width: 80vw;
   max-width: 640px;
-  margin-bottom: 70px;
+  min-width: 450px;
+  margin-bottom: 150px;
+  margin-right: 50px;
 }
 
 #logo-blanco {
   width: 150px;
   position: absolute;
   bottom: 20px;
-  left: 50px;
+  left: 6vw;
 }
 
 #img-footer {
   align-self: flex-end;
-  height: 50vw;
+  height: 46vw;
 }
 
 /* Contacto.html  */
