@@ -1,13 +1,14 @@
 * {
   font-family: "Roboto", sans-serif;
 }
-
 body {
   margin: 0;
   padding: 0;
   width: 100%;
 }
+
 /* nav */
+
 #logo-azul {
   width: 5%;
   float: left;
@@ -18,7 +19,6 @@ nav {
   border-top: 30px solid #0a2ff1;
   overflow: hidden;
 }
-
 a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
@@ -28,22 +28,38 @@ a {
   float: left;
   margin-top: 8px;
 }
-
 .activo {
   font-weight: bold;
 }
-/* main */
+
+/* footer */
+
+footer {
+  background-color: #3957f1;
+  background-image: linear-gradient(white, white);
+  background-size: 100% 0%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#logo-blanco {
+  width: 150px;
+  margin-left: 6vw;
+  margin-bottom: 22px;
+  margin-top: 22px;
+}
+
+/* index.html */
+/* main top */
+
 .titulo {
   text-align: center;
 }
-
 .top-titulo {
   font-family: "Roboto Slab", serif;
   font-size: 96px;
   color: #0a2ff1;
   margin-bottom: 10px;
 }
-
 .bottom-titulo {
   font-weight: 400;
   font-size: 34.67px;
@@ -51,59 +67,33 @@ a {
   margin-top: 0;
   margin-bottom: 40px;
 }
-
-#banner {
+#img-top {
   width: 100%;
 }
 
-/* footer */
+/* main bottom */
 
+.main-bottom {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: -70px;
+  margin-left: 6vw;
+}
 h2 {
   font-family: "Roboto Slab", serif;
   font-size: 45.33px;
   color: #0a2ff1;
 }
-
-footer {
-  display: inline-block;
-  position: relative;
-  font-size: 18pt;
+.main-text {
+  font-size: 24px;
   color: #04146c;
-  background-color: #3957f1;
-  background-image: linear-gradient(white, white);
-  background-size: 100% 92%;
-  background-repeat: no-repeat;
-  padding-top: 100px;
-  width: 100%;
-}
-
-footer strong {
-  font-weight: bold;
-}
-
-.footer-container {
-  display: flex;
-  flex-shrink: 1;
-  margin-left: 6vw;
-}
-
-.footer-text {
-  max-width: 640px;
+  max-width: 680px;
   min-width: 450px;
-  margin-bottom: 150px;
-  margin-right: 50px;
+  margin-bottom: 120px;
 }
-
-#logo-blanco {
-  width: 150px;
-  position: absolute;
-  bottom: 20px;
-  left: 6vw;
-}
-
-#img-footer {
+#img-bottom {
   align-self: flex-end;
-  height: 46vw;
+  height: 45vw;
 }
 
 /* Contacto.html  */
@@ -111,7 +101,6 @@ footer strong {
 .main-contacto {
   margin-left: 50px;
 }
-
 .p-head {
   font-family: "Roboto Slab", serif;
   font-size: 45.33px;
@@ -123,30 +112,25 @@ footer strong {
   color: #04146c;
   margin-bottom: 50px;
 }
-
 .input-info {
   font-weight: bold;
   font-size: 30.67px;
   color: #04146c;
   margin: 0;
 }
-
 span {
   color: red;
 }
-
 input {
   width: 500px;
   height: 50px;
   margin-bottom: 30px;
 }
-
 textarea {
   width: 500px;
   height: 100px;
   margin-bottom: 30px;
 }
-
 .reset,
 .send {
   font-family: "Roboto Slab", serif;
@@ -155,13 +139,12 @@ textarea {
   border: none;
   border-radius: 5px;
   padding: 5px 30px;
+  margin-bottom: 50px;
 }
-
 .reset {
   background-color: #f98500;
   margin-right: 50px;
 }
-
 .send {
   background-color: #2c00cc;
 }
