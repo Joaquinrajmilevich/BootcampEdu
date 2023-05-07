@@ -9,7 +9,7 @@ body {
 
 /* nav */
 
-#logo-azul {
+#logo-blue {
   width: 5%;
   float: left;
 }
@@ -36,16 +36,12 @@ a {
 
 footer {
   background-color: #3957f1;
-  background-image: linear-gradient(white, white);
-  background-size: 100% 0%;
-  background-repeat: no-repeat;
-  width: 100%;
 }
-#logo-blanco {
-  width: 150px;
+#logo-white {
   margin-left: 6vw;
   margin-bottom: 22px;
   margin-top: 22px;
+  width: 140px;
 }
 
 /* index.html */
@@ -99,7 +95,7 @@ h2 {
 /* Contacto.html  */
 
 .main-contacto {
-  margin-left: 50px;
+  margin-left: 6vw;
 }
 .p-head {
   font-family: "Roboto Slab", serif;
