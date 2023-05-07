@@ -1,6 +1,5 @@
 * {
   font-family: "Mulish", sans-serif;
-  padding: 0;
 }
 body {
   background-image: url("../Recursos/Ejercicio 1/M4-desafio1-fondo.png");
@@ -10,16 +9,22 @@ form {
   height: 400px;
   background-color: white;
   text-align: center;
+  padding: 20px;
 }
 
 .container {
   box-sizing: border-box;
   width: 50%;
-  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  background-color: #15163d;
   background-image: url("../Recursos/Ejercicio 1/M4-desafio1-fondo-form.png");
+  background-repeat: no-repeat;
+  background-position: -30% 0%;
+  width: 850px;
 }
 
 input,
@@ -40,6 +45,8 @@ input {
   font-weight: 400;
   font-size: 22.67px;
   color: #414166;
+  padding-left: 10px;
+  border-width: 2px;
 }
 
 button {
