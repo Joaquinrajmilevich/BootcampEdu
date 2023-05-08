@@ -13,17 +13,16 @@ form {
 }
 
 .container {
-  box-sizing: border-box;
   width: 50%;
-  padding-top: 30px;
-  padding-bottom: 30px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  background-color: #15163d;
+  flex-shrink: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-image: url("../Recursos/Ejercicio 1/M4-desafio1-fondo-form.png");
   background-repeat: no-repeat;
-  background-position: -30% 0%;
+  min-width: 700px;
 }
 
 input,
