@@ -34,7 +34,7 @@ button {
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 32.64px;
   color: #04146c;
 }
@@ -48,7 +48,7 @@ input {
 }
 
 button {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 22.67px;
   background-color: #15163d;
   color: white;
