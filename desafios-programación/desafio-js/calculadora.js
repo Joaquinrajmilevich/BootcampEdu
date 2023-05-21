@@ -100,7 +100,7 @@ console.log(calcular('RESTAR', 50, 60));
 console.log(calcular('MULTIPLICAR', 6, 12));
 console.log(calcular('DIVIDIR', 15, 3))
 
-console.log('||')
+console.log('||');
 
 //calcular1()
 console.log(calcular1('SUMAR', 3, 5));
@@ -108,7 +108,7 @@ console.log(calcular1('RESTAR', 50, 60));
 console.log(calcular1('MULTIPLICAR', 6, 12));
 console.log(calcular1('DIVIDIR', 15, 3))
 
-console.log('||')
+console.log('||');
 
 //calcular2()
 console.log(calcular1('SUMAR', 3, 5));
@@ -116,7 +116,7 @@ console.log(calcular1('RESTAR', 50, 60));
 console.log(calcular1('MULTIPLICAR', 6, 12));
 console.log(calcular1('DIVIDIR', 15, 3))
 
-console.log('||')
+console.log('||');
 
 //calcular3()
 console.log(calcular1('SUMAR', 3, 5));
