@@ -1,3 +1,2 @@
-/T1/pdf
-/T2/pdf
-/T3/pdf
+*.pdf
+node_modules
