@@ -107,27 +107,33 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.385rem + 1.62vw);
+  font-size: calc(1.425rem + 2.1vw);
 }
 
 @media (width >= 1200px) {
   h1, .h1 {
-    font-size: 2.6rem;
+    font-size: 3rem;
   }
 }
 
 h2, .h2 {
-  font-size: calc(1.315rem + .78vw);
+  font-size: calc(1.375rem + 1.5vw);
 }
 
 @media (width >= 1200px) {
   h2, .h2 {
-    font-size: 1.9rem;
+    font-size: 2.5rem;
   }
 }
 
 h3, .h3 {
-  font-size: 1.1rem;
+  font-size: calc(1.295rem + .54vw);
+}
+
+@media (width >= 1200px) {
+  h3, .h3 {
+    font-size: 1.7rem;
+  }
 }
 
 h4, .h4 {
@@ -3512,15 +3518,15 @@ progress {
 }
 
 .fs-1 {
-  font-size: calc(1.385rem + 1.62vw) !important;
+  font-size: calc(1.425rem + 2.1vw) !important;
 }
 
 .fs-2 {
-  font-size: calc(1.315rem + .78vw) !important;
+  font-size: calc(1.375rem + 1.5vw) !important;
 }
 
 .fs-3 {
-  font-size: 1.1rem !important;
+  font-size: calc(1.295rem + .54vw) !important;
 }
 
 .fs-4 {
@@ -7156,11 +7162,15 @@ progress {
 
 @media (width >= 1200px) {
   .fs-1 {
-    font-size: 2.6rem !important;
+    font-size: 3rem !important;
   }
 
   .fs-2 {
-    font-size: 1.9rem !important;
+    font-size: 2.5rem !important;
+  }
+
+  .fs-3 {
+    font-size: 1.7rem !important;
   }
 }
 
