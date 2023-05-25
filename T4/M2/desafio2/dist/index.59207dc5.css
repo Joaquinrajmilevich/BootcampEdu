@@ -1,4 +1,3 @@
-@import "https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,900;1,400&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap";
 :root {
   --bs-blue: #0d6efd;
@@ -108,51 +107,45 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.635rem + 4.62vw);
-}
-
-@media (width >= 1200px) {
-  h1, .h1 {
-    font-size: 5.1rem;
-  }
-}
-
-h2, .h2 {
   font-size: calc(1.425rem + 2.1vw);
 }
 
 @media (width >= 1200px) {
-  h2, .h2 {
+  h1, .h1 {
     font-size: 3rem;
   }
 }
 
+h2, .h2 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+@media (width >= 1200px) {
+  h2, .h2 {
+    font-size: 2.5rem;
+  }
+}
+
 h3, .h3 {
-  font-size: calc(1.325rem + .9vw);
+  font-size: calc(1.295rem + .54vw);
 }
 
 @media (width >= 1200px) {
   h3, .h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
 
 h4, .h4 {
-  font-size: calc(1.26rem + .12vw);
-}
-
-@media (width >= 1200px) {
-  h4, .h4 {
-    font-size: 1.35rem;
-  }
+  font-size: 1rem;
 }
 
 h5, .h5 {
-  font-size: 1.15rem;
+  font-size: .75rem;
 }
 
 h6, .h6 {
-  font-size: .7rem;
+  font-size: .5rem;
 }
 
 p {
@@ -3525,27 +3518,27 @@ progress {
 }
 
 .fs-1 {
-  font-size: calc(1.635rem + 4.62vw) !important;
-}
-
-.fs-2 {
   font-size: calc(1.425rem + 2.1vw) !important;
 }
 
+.fs-2 {
+  font-size: calc(1.375rem + 1.5vw) !important;
+}
+
 .fs-3 {
-  font-size: calc(1.325rem + .9vw) !important;
+  font-size: calc(1.295rem + .54vw) !important;
 }
 
 .fs-4 {
-  font-size: calc(1.26rem + .12vw) !important;
+  font-size: 1rem !important;
 }
 
 .fs-5 {
-  font-size: 1.15rem !important;
+  font-size: .75rem !important;
 }
 
 .fs-6 {
-  font-size: .7rem !important;
+  font-size: .5rem !important;
 }
 
 .fst-italic {
@@ -7169,19 +7162,15 @@ progress {
 
 @media (width >= 1200px) {
   .fs-1 {
-    font-size: 5.1rem !important;
-  }
-
-  .fs-2 {
     font-size: 3rem !important;
   }
 
-  .fs-3 {
-    font-size: 2rem !important;
+  .fs-2 {
+    font-size: 2.5rem !important;
   }
 
-  .fs-4 {
-    font-size: 1.35rem !important;
+  .fs-3 {
+    font-size: 1.7rem !important;
   }
 }
 
@@ -7228,7 +7217,7 @@ progress {
 }
 
 .custom-font {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: Mulish, sans-serif;
 }
 
 .color-1 {
@@ -7239,36 +7228,16 @@ progress {
   color: #0a2ff1;
 }
 
-.btn-1 {
-  font-variant: small-caps;
-  width: 150px;
-  background-color: #04146c;
-  border: 1px solid #0a2ff1;
-  border-radius: 0;
-}
-
 @media (width <= 767.98px) {
-  .img, .info {
+  .image {
     width: 100%;
   }
 }
 
-@media (width >= 768px) {
-  .img, .info {
+@media (width >= 767.98px) {
+  .image {
     width: 80%;
   }
 }
 
-@media (width <= 991.98px) {
-  .text-short {
-    text-align: center;
-  }
-}
-
-@media (width >= 1200px) {
-  .info {
-    width: 100%;
-  }
-}
-
-/*# sourceMappingURL=index.044e704e.css.map */
+/*# sourceMappingURL=index.59207dc5.css.map */
