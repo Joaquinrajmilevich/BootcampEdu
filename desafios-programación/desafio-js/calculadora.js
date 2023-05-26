@@ -7,31 +7,23 @@ const operaciones = {
 }
 
 function calcular(operacion, valorA, valorB) {
-  operacion = operacion.toUpperCase();
-  return operaciones[operacion](valorA, valorB)
+  return operaciones[operacion.toUpperCase()](valorA, valorB)
 }
 
 //segundo metodo
 function calcular1(operacion, valorA, valorB) {
-  operacion = operacion.toUpperCase();
-  var resultado;
-  switch (operacion) {
+  switch (operacion.toUpperCase()) {
     case 'SUMAR':
-      resultado = sumar(valorA, valorB);
-      break;
+      return sumar(valorA, valorB)
     case 'RESTAR':
-      resultado = restar(valorA, valorB);
-      break;
+      return restar(valorA, valorB)
     case 'MULTIPLICAR':
-      resultado = multiplicar(valorA, valorB);
-      break;
+      return multiplicar(valorA, valorB)
     case 'DIVIDIR':
-      resultado = dividir(valorA, valorB)
-      break;
+      return dividir(valorA, valorB)
     default:
       break;
   }
-  return resultado;
 }
 
 function sumar(a, b) {
@@ -47,7 +39,7 @@ function dividir(a, b) {
   return a / b;
 }
 
-//tercer metodo
+//tercer metodo erroneo
 function calcular2(operacion, valorA, valorB) {
   operacion = operacion.toUpperCase();
   var operador;
@@ -67,30 +59,7 @@ function calcular2(operacion, valorA, valorB) {
     default:
       break;
   }
-  return(eval(valorA + operador + valorB));
-}
-
-//cuarto metodo
-function calcular3(operacion, valorA, valorB) {
-  operacion = operacion.toUpperCase();
-  var resultado;
-  switch (operacion) {
-    case 'SUMAR':
-      resultado = valorA + valorB;
-      break;
-    case 'RESTAR':
-      resultado = valorA - valorB;
-      break;
-    case 'MULTIPLICAR':
-      resultado = valorA * valorB;
-      break;
-    case 'DIVIDIR':
-      resultado = valorA - valorB;
-      break;
-    default:
-      break;
-  }
-  return resultado;
+  return(eval(valorA + operador + valorB)); // no usar eval
 }
 
 //testplan
@@ -103,22 +72,6 @@ console.log(calcular('DIVIDIR', 15, 3))
 console.log('||');
 
 //calcular1()
-console.log(calcular1('SUMAR', 3, 5));
-console.log(calcular1('RESTAR', 50, 60));
-console.log(calcular1('MULTIPLICAR', 6, 12));
-console.log(calcular1('DIVIDIR', 15, 3))
-
-console.log('||');
-
-//calcular2()
-console.log(calcular1('SUMAR', 3, 5));
-console.log(calcular1('RESTAR', 50, 60));
-console.log(calcular1('MULTIPLICAR', 6, 12));
-console.log(calcular1('DIVIDIR', 15, 3))
-
-console.log('||');
-
-//calcular3()
 console.log(calcular1('SUMAR', 3, 5));
 console.log(calcular1('RESTAR', 50, 60));
 console.log(calcular1('MULTIPLICAR', 6, 12));
