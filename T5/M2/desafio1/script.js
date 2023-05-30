@@ -1,11 +1,17 @@
 // Monitoriza cambios del usuario y le muestra los resultados
+function addInvalid(element) {
+  element.classList.remove("is-valid");
+  element.classList.add("is-invalid");
+}
+function addValid(element) {
+  element.classList.remove("is-invalid");
+  element.classList.add("is-valid");
+}
 
 document.getElementById("validationAge").addEventListener("change", (event) => {
   if (event.target.value < 18) {
-    event.target.classList.remove("is-valid");
-    event.target.classList.add("is-invalid");
+    addInvalid(event.target);
     return;
   }
-  event.target.classList.remove("is-invalid");
-  event.target.classList.add("is-valid");
+  addValid(event.target);
 });
