@@ -40,7 +40,7 @@ function checkUser(userValue, passwordValue) {
 
 // llama a la función checkUser()
 // cuando el usuario hace click en el botton login
-document.getElementById("submit").addEventListener("click", (event) => {
+document.getElementById("login").addEventListener("click", (event) => {
   event.preventDefault();
   checkUser(inputUser.value, inputPassword.value);
 });
