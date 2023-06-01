@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 1</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark-subtle bg-gradient">
+    <div class="d-flex container justify-content-center">
+      <table
+        class="table table-dark table-striped table-bordered border-secondary shadow-lg"
+        style="margin-top: 100px; width: 50rem"
+        id="input-wrapper"
+      >
+        <thead>
+          <tr>
+            <th style="width: 8rem" scope="col">Periodo</th>
+            <th style="width: 8rem" scope="col">Ingreso</th>
+            <th style="width: 8rem" scope="col">Egreso</th>
+            <th style="width: 8rem" scope="col">Flujo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row" class="fw-bold months">Enero</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="1500"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="1500"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" class="fw-bold months">Febrero</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="2500"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="2500"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" class="fw-bold months">Marzo</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="84683"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="1533"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" class="fw-bold months">Abril</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="135353"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="1533"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" class="fw-bold months">Mayo</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="1535"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="5434"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" class="fw-bold months">Junio</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="4343354"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="5344543"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" class="fw-bold months">Julio</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="435453"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="4543"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" class="fw-bold months">Agosto</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="78351"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="7816"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" class="fw-bold months">Septiembre</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="1878"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="95634"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" class="fw-bold months">Octubre</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="48483"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="9433"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" class="fw-bold months">Noviembre</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="35483"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="53133"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" class="fw-bold months">Diciembre</td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="3843"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control btn-dark bg-transparent text-light values border-dark-subtle"
+                value="348133"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                readonly
+                class="form-control btn-dark text-light flux"
+                style="border: none"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
