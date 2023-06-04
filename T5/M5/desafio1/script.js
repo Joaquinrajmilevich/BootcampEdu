@@ -1,13 +1,10 @@
 const pointElement = document.getElementById("punto-equilibrio");
-// Inicializo variables
-let values = {
-  fixedCost: null,
-  salePrice: null,
-  variableCost: null,
-};
-
+let values = {};
 // notEmpty() devuelve true si ninguna de las propiedades esta vacia
 function notEmpty(object) {
+  if (Object.keys(object).length != 3) {
+    return false;
+  }
   for (const property in object) {
     if (!object[property]) {
       return false;
@@ -18,20 +15,8 @@ function notEmpty(object) {
 
 // assignValue() asigna el valor asignado por el usuario
 // a la propiedad correspondiente
-function assignValue(valueId, target) {
-  switch (valueId) {
-    case "fixed-cost":
-      values.fixedCost = target.value;
-      break;
-    case "sale-price":
-      values.salePrice = target.value;
-      break;
-    case "variable-cost":
-      values.variableCost = target.value;
-      break;
-    default:
-      break;
-  }
+function assignValues(element, object) {
+  object[element.id] = element.value;
 }
 
 // Fórmula del punto de equilibrio
@@ -45,12 +30,15 @@ function equilibriumPoint(cf, sp, vc) {
 
 // Monitoriza cambios del usuario y le muestra los resultados
 document.getElementById("input-wrapper").addEventListener("change", (event) => {
-  assignValue(event.target.getAttribute("id"), event.target);
+  assignValues(event.target, values);
+  console.log(values);
   if (notEmpty(values)) {
     pointElement.innerText = equilibriumPoint(
       values.fixedCost,
       values.salePrice,
       values.variableCost
     );
+  } else {
+    pointElement.innerText = "faltan valores";
   }
 });
