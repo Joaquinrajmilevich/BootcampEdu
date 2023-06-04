@@ -26,19 +26,32 @@ function categoryData() {
   let category = {};
   category["name"] = categoryElement.value;
   category["percentage"] = percentageElement.value;
+  if (category.name == "" || category.percentage == "") {
+    return false;
+  }
   return category;
 }
 
 // budgetCalculation() devuelve un array
 //con el porcentaje de cada categoria calculado
 function budgetCalculation(array, income) {
-  const newArray = [];
-  for (let i = 0; i < categories.length; i++) {
-    let category = categories[i];
+  for (let i = 0; i < array.length; i++) {
+    let category = array[i];
     category["budget"] = (income / 100) * category.percentage;
-    newArray.push(category);
   }
   return array;
+}
+
+// Muestra y crea las categorias
+function showCategory() {
+  let cardCategory = categoryData();
+  if (!cardCategory) {
+    return;
+  }
+  categories.push(cardCategory);
+  categoryWrapper.innerHTML += card(cardCategory.name);
+  categoryElement.value = "";
+  percentageElement.value = "";
 }
 
 // Muestra cada presupuesto en su respectivo elemento
@@ -53,10 +66,7 @@ function showBudget(incomeValue) {
 // Agrega una nueva categoria al array categories
 // y muestra su respectivo elemento
 document.getElementById("add-category").addEventListener("click", () => {
-  categories.push(categoryData());
-  categoryWrapper.innerHTML += card(categoryData().name);
-  categoryElement.value = "";
-  percentageElement.value = "";
+  showCategory();
   showBudget(incomeElement.value);
 });
 

@@ -8,11 +8,9 @@ let categories = [
 // budgetCalculation() devuelve un array
 //con el porcentaje de cada categoria calculado
 function budgetCalculation(array, income) {
-  const newArray = [];
-  for (let i = 0; i < categories.length; i++) {
-    let category = categories[i];
+  for (let i = 0; i < array.length; i++) {
+    let category = array[i];
     category["budget"] = (income / 100) * category.percentage;
-    newArray.push(category);
   }
   return array;
 }
