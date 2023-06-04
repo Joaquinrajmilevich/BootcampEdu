@@ -1,10 +1,10 @@
 // Fórmula del punto de equilibrio
-function equilibriumPoint(cf, sp, vc) {
-  let eP = cf / (sp - vc);
-  if (eP == Infinity) {
-    return "Los costos no pueden ser iguales al precio de venta";
-  }
-  return eP;
+function equilibriumPoint(fc, sp, vc) {
+  return fc / (sp - vc);
 }
 
-console.log(equilibriumPoint(100, 50, 20));
+let fixedCost = parseFloat(prompt("Ingresa el costo fijo total: "));
+let salePrice = parseFloat(prompt("Ingresa el precio de venta: "));
+let variableCost = parseFloat(prompt("Ingresa el costo variable: "));
+
+console.log(equilibriumPoint(fixedCost, salePrice, variableCost));
