@@ -9,10 +9,15 @@ function addValid(element) {
   element.classList.add("is-valid");
 }
 // Validación de edad
+function isValid(value) {
+  return Number.parseInt(value) > 17;
+}
+
 document.getElementById("validationAge").addEventListener("change", (event) => {
-  if (event.target.value < 18) {
-    addInvalid(event.target);
+  const element = event.target;
+  if (isValid(element.value)) {
+    addValid(element);
     return;
   }
-  addValid(event.target);
+  addInvalid(element);
 });
