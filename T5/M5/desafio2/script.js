@@ -32,21 +32,11 @@ function categoryData() {
   return category;
 }
 
-// budgetCalculation() devuelve un array
-//con el porcentaje de cada categoria calculado
-function budgetCalculation(array, income) {
-  for (let i = 0; i < array.length; i++) {
-    let category = array[i];
-    category["budget"] = (income / 100) * category.percentage;
-  }
-  return array;
-}
-
 // Muestra y crea las categorias
 function showCategory() {
   let cardCategory = categoryData();
   if (!cardCategory) {
-    return;
+    return false;
   }
   categories.push(cardCategory);
   categoryWrapper.innerHTML += card(cardCategory.name);
@@ -54,13 +44,12 @@ function showCategory() {
   percentageElement.value = "";
 }
 
-// Muestra cada presupuesto en su respectivo elemento
+// Muestra cada presupuesto con el porcentaje de cada categoria calculado en su respectivo elemento
 function showBudget(incomeValue) {
-  const categoriesBudget = budgetCalculation(categories, incomeValue);
-  categoriesBudget.forEach((categoryBudget) => {
-    const budgetId = document.getElementById(categoryBudget.name);
-    budgetId.innerHTML = categoryBudget.budget;
-  });
+  for (const category of categories) {
+    const categoryName = document.getElementById(category.name);
+    categoryName.innerHTML = (incomeValue / 100) * category.percentage;
+  }
 }
 
 // Agrega una nueva categoria al array categories

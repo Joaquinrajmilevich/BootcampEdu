@@ -5,24 +5,14 @@ let categories = [
   { name: "savingsInvestment", percentage: 20 },
 ];
 
-// budgetCalculation() devuelve un array
-//con el porcentaje de cada categoria calculado
-function budgetCalculation(array, income) {
-  for (let i = 0; i < array.length; i++) {
-    let category = array[i];
-    category["budget"] = (income / 100) * category.percentage;
+//Muestra cada presupuesto con el porcentaje de cada categoria calculado en su respectivo elemento
+function showBudget(incomeValue) {
+  for (const category of categories) {
+    const categoryName = document.getElementById(category.name);
+    categoryName.innerHTML = (incomeValue / 100) * category.percentage;
   }
-  return array;
 }
 
-// Muestra cada presupuesto en su respectivo elemento
-function showBudget(incomeValue) {
-  const categoriesBudget = budgetCalculation(categories, incomeValue);
-  categoriesBudget.forEach((categoryBudget) => {
-    const budgetId = document.getElementById(categoryBudget.name);
-    budgetId.innerHTML = categoryBudget.budget;
-  });
-}
 // Monitoriza cambios del usuario y le muestra los resultados
 document.getElementById("total-income").addEventListener("change", (event) => {
   showBudget(event.target.value);
