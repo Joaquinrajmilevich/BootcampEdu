@@ -14,8 +14,7 @@ function interest(a, b, c) {
 // funcion que devuelve un array con los intereses generados incluidos
 function addInterest(plans) {
   const array = [];
-  for (let i = 0; i < plans.length; i++) {
-    let plan = plans[i];
+  for (const plan of plans) {
     plan["interest"] = interest(plan.capital, plan.term, plan.rate);
     array.push(plan);
   }

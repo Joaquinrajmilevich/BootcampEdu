@@ -48,12 +48,12 @@ function showCategory() {
 function showBudget(incomeValue) {
   for (const category of categories) {
     const categoryName = document.getElementById(category.name);
-    categoryName.innerHTML = (incomeValue / 100) * category.percentage;
+    categoryName.innerText = (incomeValue / 100) * category.percentage;
   }
 }
 
 // Agrega una nueva categoria al array categories
-// y muestra su respectivo elemento
+// Actualiza los presupuestos
 document.getElementById("add-category").addEventListener("click", () => {
   showCategory();
   showBudget(incomeElement.value);
