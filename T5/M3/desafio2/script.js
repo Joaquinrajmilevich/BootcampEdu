@@ -8,7 +8,7 @@ const creditsPlans = [
 // funcion que devuelve interes generado
 
 function interest(a, b, c) {
-  return (a * b * c) / 100;
+  return (a * b * (c / 100)) / 100;
 }
 
 // funcion que devuelve un array con los intereses generados incluidos
