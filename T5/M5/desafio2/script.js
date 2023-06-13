@@ -14,17 +14,11 @@ const global = {
   uniqueId: 0,
 };
 
-// Función para mostrar una alerta
-function showAlert(message) {
-  alert(message);
-  location.reload();
-}
-
 // Función para comprobar el porcentaje máximo
 function checkMaxPercentage() {
   if (global.sumPercentage > 100) {
-    // Comprueba si el porcentaje total excede 100
-    showAlert("El porcentaje total no puede exceder 100");
+    alert("El porcentaje total no puede exceder 100");
+    location.reload();
     return false;
   }
   return true;
@@ -47,7 +41,6 @@ function createCategory() {
 
   global.sumPercentage += percentage;
   if (checkMaxPercentage()) {
-    // Comprueba si el porcentaje total es válido
     global.categories.push(category);
     return category;
   } else {
@@ -77,10 +70,9 @@ function renderCategory(category) {
 // Función para actualizar el presupuesto
 function updateBudget(incomeValue) {
   const parsedIncome = parseFloat(incomeValue);
-
+  // Comprueba si el valor de ingreso no es un número válido o es negativo
   if (isNaN(parsedIncome) || parsedIncome < 0) {
-    // Comprueba si el valor de ingreso no es un número válido o es negativo
-    showAlert("Ingrese un valor de ingreso válido");
+    alert("Ingrese un valor de ingreso válido");
     return;
   }
 
