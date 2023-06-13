@@ -52,18 +52,16 @@ function createCategory() {
 // Función para renderizar una categoría en la interfaz
 function renderCategory(category) {
   const cardHTML = `
-    <div class="col">
-      <div class="card text-bg-primary text-center h-100">
-        <div class="card-header">
-          <div class="fs-5">${category.name}</div>
-        </div>
-        <div class="card-body">
-          <p class="card-text fw-bold" id="${category.id}"></p>
-        </div>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div>
+        <div class="fw-bold card-header">${category.name}</div>
+        <p class="card-text card-body" id="${category.id}"></p>
       </div>
-    </div>
+      <span class="badge bg-primary rounded-pill position-absolute top-50 start-100 translate-middle">
+        ${category.percentage}%
+      </span>
+    </li>
   `;
-
   categoryWrapper.innerHTML += cardHTML; // Agrega el HTML de la categoría al contenedor
 }
 

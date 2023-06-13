@@ -14,15 +14,25 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="row mx-auto mb-5" style="margin-top: 100px; width: 50rem">
+    <div class="d-flex justify-content-center">
+      <div class="row" style="margin-top: 100px">
         <div class="col">
-          <div class="row mx-auto mb-3" style="width: 50rem">
+          <div class="row mb-3" style="max-width: 700px">
             <div class="input-group mb-3">
               <span class="input-group-text">Categoria</span>
-              <input type="text" class="form-control" id="category" />
+              <input
+                type="text"
+                class="form-control"
+                id="category"
+                style="width: 10vw"
+              />
               <span class="input-group-text">%</span>
-              <input id="percentage" type="number" class="form-control" />
+              <input
+                id="percentage"
+                type="number"
+                class="form-control"
+                style="width: 10vw"
+              />
               <button
                 class="btn btn-primary mx-auto"
                 id="add-category"
@@ -50,12 +60,14 @@
               </button>
             </div>
           </div>
+          <div class="col d-flex">
+            <ul
+              class="list-group mx-auto"
+              id="category-wrapper"
+              style="min-width: 8rem"
+            ></ul>
+          </div>
         </div>
-        <div
-          class="row row-cols-1 row-cols-md-3 g-3 mx-auto"
-          style="width: 45rem"
-          id="category-wrapper"
-        ></div>
       </div>
     </div>
     <script src="script.js"></script>
