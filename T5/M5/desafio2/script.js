@@ -97,7 +97,10 @@ document.getElementById("add-category").addEventListener("mouseup", () => {
 
 // Evento al hacer clic en el botón de calcular
 document.getElementById("calculate").addEventListener("mouseup", () => {
-  if (checkMaxPercentage()) {
-    updateBudget(incomeElement.value); // Actualiza el presupuesto basado en el valor de ingreso
+  if (checkMaxPercentage() && global.sumPercentage !== 100) {
+    alert("El porcentaje total debe ser igual a 100");
+    return;
   }
+
+  updateBudget(incomeElement.value); // Actualiza el presupuesto basado en el valor de ingreso
 });
