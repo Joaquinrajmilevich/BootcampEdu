@@ -1,5 +1,5 @@
 // constante con los tipos de planes
-const creditsPlans = [
+const creditPlans = [
   { name: "Plan 001", capital: 150000, term: 30, rate: 15 },
   { name: "Plan 002", capital: 300000, term: 180, rate: 10 },
   { name: "Plan 003", capital: 485000, term: 60, rate: 23 },
@@ -21,4 +21,4 @@ function addInterest(plans) {
   return array;
 }
 
-console.log(addInterest(creditsPlans));
+console.log(addInterest(creditPlans));
